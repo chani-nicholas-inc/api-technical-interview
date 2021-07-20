@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const fs = require('fs')
 
 // get
 app.get('/', (req, res) => {
@@ -13,9 +14,18 @@ app.get('/transits', (req, res) => {
 
 // params
 
-app.get('/:param', (req, res) => {
+app.get('/p/:param', (req, res) => {
   console.log('req.params: ', req.params)
-  res.send(`This is the param: ${req.params.param}.`)
+  res.send(`This is the param: ${req.params.param}`)
+})
+
+// list all houses
+
+app.get('/houses', (req, res) => {
+  let houses = fs.readFileSync('./houses.json')
+  let houseData = JSON.parse(houses)
+  console.log(houseData)
+  res.send(houseData)
 })
 
 // post

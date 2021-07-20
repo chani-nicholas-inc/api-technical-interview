@@ -1,0 +1,62 @@
+[
+  {
+    "name": "1st House",
+    "number": 1,
+    "description": "Self, appearance, vitality, and life force"
+  },
+  {
+    "name": "2nd House",
+    "number": 2,
+    "description": "Assets, resources, and self-worth"
+  },
+  {
+    "name": "3rd House",
+    "number": 3,
+    "description": "Communication, daily rituals, siblings, and extended family"
+  },
+  {
+    "name": "4th House",
+    "number": 4,
+    "description": "Parents, home, and foundations"
+  },
+  {
+    "name": "5th House",
+    "number": 5,
+    "description": "Sex, children, and creative energy"
+  },
+  {
+    "name": "6th House",
+    "number": 6,
+    "description": "Work and health"
+  },
+  {
+    "name": "7th House",
+    "number": 7,
+    "description": "Committed partnerships"
+  },
+  {
+    "name": "8th House",
+    "number": 8,
+    "description": "Death, mental, health, and other people's resources"
+  },
+  {
+    "name": "9th House",
+    "number": 9,
+    "description": "Travel, education, publishing, religion, astrology, and philosophy"
+  },
+  {
+    "name": "10th House",
+    "number": 10,
+    "description": "Career and public roles"
+  },
+  {
+    "name": "11th House",
+    "number": 11,
+    "description": "Community and good fortune"
+  },
+  {
+    "name": "12th House",
+    "number": 12,
+    "description": "Sorrows, loss, and hidden life"
+  }
+]
