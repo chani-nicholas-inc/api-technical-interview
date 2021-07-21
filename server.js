@@ -30,6 +30,21 @@ app.get('/houses', (req, res) => {
   res.send(houseData)
 })
 
+// get one house
+app.get('/houses/:idx', (req, res) => {
+  // get houses
+  let houses = fs.readFileSync('./houses.json')
+  let houseData = JSON.parse(houses)
+
+  // get arr index from url param
+  let houseIdx = parseInt(req.params.idx)
+
+  let result = {house: houseData[houseIdx]}
+
+  // send data of the specified house
+  res.send(result)
+})
+
 // list all user birth data sets
 app.get('/user-birth-data', (req, res) => {
   let userBirthData = fs.readFileSync('./user-birth-data.json')
