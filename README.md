@@ -32,5 +32,7 @@ node -v
 
 ## Clone repo locally
 git clone https://github.com/chani-nicholas-inc/api-technical-interview.git
+npm i
+npm i -g nodemon
 nodemon
 ```
