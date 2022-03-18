@@ -14,6 +14,6 @@ const fs = require('fs')
 
 // list all user birth data sets
 
-// post
+// post a user's birth data
 
 app.listen(8000)
